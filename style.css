@@ -1,0 +1,152 @@
+body{
+    background-color: #CCE4FF;
+    padding: 0;
+    margin: 0;
+    font-family: montserrat;
+}
+
+.head{
+    background-color: #DBEDFF;
+}
+
+#name h1 {
+    font-size: 3.5rem;
+    font-weight: 600;
+}
+
+#job h1{
+    font-size: 2.5rem;
+    font-weight: 400;
+}
+
+.wrapper{
+    margin: 5rem;
+    background-color: #fff;
+}
+
+.head{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    flex-wrap: wrap;
+}
+
+.basic-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.head-group-two{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+}
+
+#links{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 1rem;
+    padding: 1rem;
+}
+
+#address{
+    margin: 1rem 0;
+}
+
+.fa-solid,
+.fa-brands{
+    color: #87918C;
+}
+
+.wrapper{
+    background-color: #fff;
+}
+
+.aboutWrapper{
+    padding: 3rem;
+    font-size: 1.1rem;
+    line-height: 1.5rem;
+    word-spacing: 2px;
+    font-family: 'Work Sans';
+}
+
+#space{
+    padding-top: 0.8rem;
+}
+
+.aboutSocialLink{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+ a {
+    text-decoration: none;
+    color: #5256f4;
+}
+
+.techArea{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 0 3rem;
+    font-family: 'Work Sans';
+}
+
+.aboutSkillText{
+    margin-left: 3rem;
+}
+
+.technicalSkillsWrapper{
+    padding: 0 3rem;
+}
+
+.icon-gap{
+    margin-left: 1rem;
+}
+
+.intWrapper{
+    display: flex;
+    flex-direction: column;
+    padding:  0 3rem;
+    font-family: 'Work Sans';
+}
+
+.interestBox{
+    padding: 0 2rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.interest{
+    padding: 0 1.5rem;
+}
+
+.intText{
+    color: #333;
+}
+
+.eduWrapper{
+    font-family: 'Work Sans';
+}
+
+.eduExpWrapper{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 3rem;
+    justify-content: space-between;
+}
+
+.expWrapper{
+    font-family: 'Work Sans';
+}
