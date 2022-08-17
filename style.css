@@ -92,4 +92,8 @@ a{
     #name{
         display: inline;
        }
+    .social{
+          flex-direction: row;
+         flex-wrap: wrap;
+       }
 }
