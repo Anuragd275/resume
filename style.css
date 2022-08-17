@@ -72,6 +72,11 @@ a{
 }
 
 @media(max-width: 600px){
+
+     body{
+         padding:0;
+     }
+
     .lang{
         display: flex;
         flex-direction: column;
