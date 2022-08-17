@@ -34,6 +34,10 @@ a{
     padding: 5rem;
 }
 
+#aboutText{
+    padding: 2rem;
+}
+
 .socialLink{
     margin:  1rem ;
 }
@@ -60,8 +64,24 @@ a{
 .hobbieWrapper{
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
 }
 
 .hobbi{
     padding: 0 1rem;
+}
+
+@media(max-width: 600px){
+    .lang{
+        display: flex;
+        flex-direction: column;
+    }   
+
+    .hero{
+        flex-direction: column;
+    }
+
+    #city{
+        font-size: larger;
+    }
 }
